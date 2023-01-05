@@ -1,6 +1,76 @@
-/* font-family: 'Open Sans', sans-serif;
-font-family: 'Oswald', sans-serif; */
-
-.header{
-    
+html {
+    box-sizing: border-box;
 }
+
+*,
+*::before,
+*::after {
+    box-sizing: inherit;
+}
+
+body {
+    margin: 0;
+    font-family: 'Oswald', sans-serif;
+    font-weight: 400;
+}
+
+.container {
+    max-width: 1100px;
+    margin: 0 auto;
+}
+
+/* style for text start */
+
+:root {
+    --accent-color: #F7654A;
+    --dark-color: #404149;
+    --gray-color: #999;
+    --white-color: #fff;
+    --background-color: #e5e5e5;
+}
+
+.text-h2 {
+    font-family: 'Oswald', sans-serif;
+    font-weight: 500;
+    font-size: 36px;
+    text-transform: uppercase;
+}
+
+.text-h3 {
+    font-family: 'Oswald', sans-serif;
+    font-weight: 500;
+    font-size: 24px;
+}
+
+.text-h4 {
+    font-family: 'Oswald', sans-serif;
+    font-weight: 500;
+    font-size: 21px;
+}
+
+.text-p {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 16px;
+}
+
+.text-p-reviews {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 14px;
+    line-height: 21px;
+}
+
+/* style for text end */
+
+.header {}
+
+.header__top {}
+
+.logo {}
+
+.burger {}
+
+.burger__line {}
+
+.header__title {}
+
+.header__text {}
