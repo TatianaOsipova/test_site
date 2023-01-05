@@ -145,4 +145,79 @@ body {
 
 /* styling section about start */
 
+.about {
+    min-height: 1080px;
+    position: relative;
+}
+
+.info {
+    position: absolute;
+    top: -150px;
+    left: 50%;
+    transform: translateX(-50%);
+    background-color: #f7f7f7;
+    width: 100%;
+    max-width: 1110px;
+    min-height: 300px;
+    padding: 57px 130px;
+}
+
+.about__items {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 30px;
+    justify-items: center;
+}
+
+.about__item {
+    text-align: center;
+    width: 190px;
+}
+
+.about__title {
+    font-weight: 500;
+    font-size: 72px;
+    line-height: 107px;
+    text-align: center;
+    text-transform: uppercase;
+    color: var(--accent-color);
+    margin-bottom: 5px;
+}
+
+.about__subtitle {
+    font-weight: 500;
+    font-size: 36px;
+    line-height: 53px;
+    text-align: center;
+    text-transform: uppercase;
+    color: #000000;
+    margin-bottom: -18px;
+}
+
+.about__text {
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 27px;
+    text-align: center;
+    color: var(--gray-color);
+}
+
+@media(max-width: 1280px) {
+    .about__items {
+        grid-template-columns: repeat(2, 1fr);
+        grid-template-rows: repeat(2, 1fr);
+    }
+}
+
+@media(max-width: 768px) {
+    .info {
+        position: relative;
+    }
+
+    .about__items {
+        grid-template-columns: repeat(1, 1fr);
+        grid-template-rows: repeat(2, 1fr);
+    }
+}
+
 /* styling section about end */
