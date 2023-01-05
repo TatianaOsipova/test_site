@@ -61,7 +61,12 @@ body {
 
 /* style for text end */
 
-.header {}
+/* styling header start */
+
+.header {
+    min-height: 740px;
+    background-image: url(../img/header-bg.jpg);
+}
 
 .header__top {}
 
@@ -74,3 +79,5 @@ body {
 .header__title {}
 
 .header__text {}
+
+/* styling header end */
