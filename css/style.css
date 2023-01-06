@@ -309,8 +309,6 @@ body {
     align-items: center;
 }
 
-.request__flex-item {}
-
 .request__flex-left {
     color: var(--white-color);
 }
@@ -331,8 +329,6 @@ body {
     color: #FFFFFF;
     text-transform: uppercase;
 }
-
-.request__flex-right {}
 
 .request__btn {
     margin-top: 20px;
