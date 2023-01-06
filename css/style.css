@@ -426,7 +426,7 @@ body {
 }
 
 @media screen and (max-width: 380px) {
-    .header__title{
+    .header__title {
         font-size: 46px;
         line-height: 64px;
         padding-left: 15px;
@@ -438,13 +438,23 @@ body {
 
 /* styling section portfolio start */
 
-.portfolio {
-}
 .portfolio__grid {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    justify-items: center;
+    gap: 0;
 }
-.portfolio__grid-item {
+
+@media screen and (max-width: 768px) {
+    .portfolio__grid {
+        grid-template-columns: repeat(2, 1fr);
+    }
 }
-.portfolio__img {
+
+@media screen and (max-width: 380px) {
+    .portfolio__grid {
+        grid-template-columns: repeat(1, 1fr);
+    }
 }
 
 /* styling section portfolio end */
