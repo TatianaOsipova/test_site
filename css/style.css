@@ -503,7 +503,7 @@ body {
 }
 
 .question__h3.open::before{   
-    transform: rotate(-90deg);
+    transform: rotate(90deg);
 }
 
 .question__h3.open::before,
