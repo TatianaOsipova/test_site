@@ -587,12 +587,18 @@ body {
 /* styling section reviews start */
 
 .reviews {
+    padding: 150px 0;
 }
 .text-h2 {
 }
 .reviews__h2 {
+    text-align: center;
+    margin-bottom: 60px;
 }
 .reviews__grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 30px;
 }
 .reviews__grid-item {
 }
