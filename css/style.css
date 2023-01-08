@@ -589,28 +589,43 @@ body {
 .reviews {
     padding: 150px 0;
 }
-.text-h2 {
-}
+
+.text-h2 {}
+
 .reviews__h2 {
     text-align: center;
     margin-bottom: 60px;
 }
+
 .reviews__grid {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     gap: 30px;
 }
-.reviews__grid-item {
-}
+
+.reviews__grid-item {}
+
 .reviews__card {
+    background-color: #f7f7f7;
+    padding: 30px;
+    margin-bottom: 30px;
+    width: 100%;
 }
+
 .reviews__quotes {
+    font-size: 96px;
+    line-height: 1;
+    text-transform: uppercase;
+    color: var(--accent-color);
+    margin-bottom: -40px;
+
+
 }
-.text-p-reviews {
-}
-.text-h4 {
-}
-.reviews__author-accent {
-}
+
+.text-p-reviews {}
+
+.text-h4 {}
+
+.reviews__author-accent {}
 
 /* styling section reviews end */
