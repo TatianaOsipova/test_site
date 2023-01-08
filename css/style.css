@@ -468,25 +468,15 @@ body {
     padding-bottom: 110px;
 }
 
-.text-h2 {}
-
 .question .section__h2 {
     margin-bottom: 50px;
 }
-
-.questions__items {}
-
-.question__item {}
-
-.text-h3 {}
 
 .question__h3 {
     text-transform: uppercase;
     color: var(--accent-color);
     margin-bottom: 21px;
 }
-
-.close {}
 
 .text-p.question__p {
     line-height: 25px;
