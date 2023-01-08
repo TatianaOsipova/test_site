@@ -535,7 +535,7 @@ body {
 .partners {
     padding-top: 100px;
     padding-bottom: 80px;
-    background-color: var(--dark-color);
+    background-color: rgb(217, 200, 200);
 }
 
 .partners__h2 {
