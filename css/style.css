@@ -510,6 +510,11 @@ body {
     text-transform: uppercase;
 }
 
+.contacts__h3 a{
+    text-decoration: none;
+    color: inherit;
+}
+
 .contacts__h3-grey {
     color: var(--grey-color);
     margin-bottom: 18px;
