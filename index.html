@@ -10,10 +10,33 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Open+Sans&family=Oswald:wght@400;500;700&display=swap"
         rel="stylesheet">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link type="text/css" rel="stylesheet" href="css/materialize.css" media="screen,projection" />
     <link rel="stylesheet" href="css/style.css">
 </head>
 
 <body>
+
+    <ul id="slide-out" class="sidenav">
+        <li>
+            <div class="user-view">
+                <div class="background">
+                    <img src="images/office.jpg">
+                </div>
+                <a href="#user"><img class="circle" src="images/yuna.jpg"></a>
+                <a href="#name"><span class="white-text name">John Doe</span></a>
+                <a href="#email"><span class="white-text email">jdandturk@gmail.com</span></a>
+            </div>
+        </li>
+        <li><a href="#!"><i class="material-icons">cloud</i>First Link With Icon</a></li>
+        <li><a href="#!">Second Link</a></li>
+        <li>
+            <div class="divider"></div>
+        </li>
+        <li><a class="subheader">Subheader</a></li>
+        <li><a class="waves-effect" href="#!">Third Link With Waves</a></li>
+    </ul>
+    <!-- <a href="#" data-target="slide-out" class="sidenav-trigger"><i class="material-icons">menu</i></a> -->
 
     <!-- header start -->
 
@@ -21,11 +44,11 @@
         <div class="container">
             <div class="header__top">
                 <img class="logo" src="img/logo.svg" alt="logo">
-                <button class="burger">
+                <a class="burger sidenav-trigger" data-target="slide-out">
                     <span class="burger__line"></span>
                     <span class="burger__line"></span>
                     <span class="burger__line"></span>
-                </button>
+                </a>
             </div>
             <h1 class="header__title">
                 We implement the biggest projects in USA
@@ -401,7 +424,8 @@
                 <div class="contacts__item">
                     <img class="contacts__icon" src="img/email-icon.svg" alt="email-icon">
                     <h3 class="text-h3 contacts__h3 contacts__h3-grey">E-mail:</h3>
-                    <h3 class="text-h3 contacts__h3 contacts__h3-accent"><a href="mailto:info@constraction@gmail.com">info@constraction@gmail.com</a></h3>
+                    <h3 class="text-h3 contacts__h3 contacts__h3-accent"><a
+                            href="mailto:constraction@gmail.com">constraction@gmail.com</a></h3>
                 </div>
             </div>
         </div>
