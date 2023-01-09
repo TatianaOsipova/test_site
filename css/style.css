@@ -539,6 +539,7 @@ body {
 /* adaptive of the site start */
 
 @media screen and (max-width: 1280px) {
+    .header__top,
     .header__title{
         padding-left: 15px;
         padding-right: 15px;
