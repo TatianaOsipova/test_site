@@ -384,7 +384,7 @@ body {
     max-width: 730px;
 }
 
-.question__h3.close {
+/* .question__h3.close {
     margin-bottom: 33px;
 }
 
@@ -406,7 +406,7 @@ body {
 
 .question__h3.close+.question__p {
     display: none;
-}
+} */
 
 /* styling section question end */
 
@@ -539,6 +539,11 @@ body {
 /* adaptive of the site start */
 
 @media screen and (max-width: 1280px) {
+    .header__title{
+        padding-left: 15px;
+        padding-right: 15px;
+    }
+
     .about__items {
         grid-template-columns: repeat(2, 1fr);
         grid-template-rows: repeat(2, 1fr);
