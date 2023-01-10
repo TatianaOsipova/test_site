@@ -124,22 +124,30 @@
 
     <!-- section about end -->
 
-    <!-- section request start -->
+    <!-- Modal Trigger --> 
 
+    <div id="modal1" class="modal">
+        <div class="modal-content">
+            <h4>Modal Header</h4>
+            <p>A bunch of text</p>
+        </div>
+    </div>
+
+    <!-- section request start -->
+    
     <section class="request">
         <div class="container">
             <div class="request__flex">
-
                 <div class="request__flex-left">
                     <h4 class="request__h4">The smartest projects</h4>
                     <div class="request__h5">We implement the boldest decisions in USA!</div>
                 </div>
 
                 <div class="request__flex-right">
-                    <button class="request__btn">
+                    <a class="request__btn modal-trigger" href="#modal1">
                         <img class="request__icon" src="img/email-icon-black.svg" alt="email icon">
                         your request
-                    </button>
+                    </a>
                 </div>
             </div>
         </div>
@@ -368,7 +376,7 @@
 
     <!-- Modal Trigger -->    
 
-    <div id="modal1" class="modal">
+    <div id="modal2" class="modal">
         <div class="modal-content">
             <h4>Modal Header</h4>
             <p>A bunch of text</p>
@@ -386,7 +394,7 @@
                 </div>
 
                 <div class="request__flex-right">
-                    <a class="request__btn modal-trigger" href="#modal1">
+                    <a class="request__btn modal-trigger" href="#modal2">
                         <img class="request__icon" src="img/email-icon-black.svg" alt="email icon">
                         your request
                     </a>
