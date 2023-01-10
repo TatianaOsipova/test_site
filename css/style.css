@@ -1068,26 +1068,14 @@ nav,
 
 .modal-content {
     text-transform: uppercase;
-    background-color: rgb(217, 200, 200);
+    /* background-color: #fafafa; */
 }
 
 .modal .modal-close {
     cursor: pointer;
 }
 
-.modal .modal-footer {
-    border-radius: 0 0 2px 2px;
-    background-color: #fafafa;
-    padding: 4px 6px;
-    height: 56px;
-    width: 100%;
-    text-align: right;
-}
-
-.modal .modal-footer .btn,
-.modal .modal-footer .btn-large,
-.modal .modal-footer .btn-small,
-.modal .modal-footer .btn-flat {
+.modal .btn-flat {
     margin: 6px 0;
 }
 
@@ -1105,12 +1093,12 @@ nav,
     will-change: opacity;
 }
 
-.modal.modal-fixed-footer {
+.modal .modal-fixed-footer {
     padding: 0;
     height: 70%;
 }
 
-.modal.modal-fixed-footer .modal-content {
+.modal .modal-fixed-footer .modal-content {
     position: absolute;
     height: calc(100% - 56px);
     max-height: 100%;
@@ -1118,13 +1106,7 @@ nav,
     overflow-y: auto;
 }
 
-.modal.modal-fixed-footer .modal-footer {
-    border-top: 1px solid rgba(0, 0, 0, 0.1);
-    position: absolute;
-    bottom: 0;
-}
-
-.modal.bottom-sheet {
+.modal .bottom-sheet {
     top: auto;
     bottom: -100%;
     margin: 0;
